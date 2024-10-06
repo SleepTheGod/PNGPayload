@@ -7,8 +7,14 @@ On your terminal mingw or linux type the following.
 ```bash
 git clone https://github.com/SleepTheGod/PNGPayload
 cd PNGPayload
-chmod +x main.py
+chmod +x main.py; chmod +x payload.py
+python main.py; chmod +x payload.py
+pip install -r requirements.txt
+```
+Run the script
+```bash
 python main.py
+python payload.py
 ```
 
 Example Output
